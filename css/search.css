@@ -1,0 +1,258 @@
+/*
+* @Author: LX
+* @Date:   2017-04-12 08:47:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-12 18:36:42
+*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+
+
+
+.sea-nav{
+	width: 100%;
+	height: 1rem;
+	background: #3C3C3C;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 .24rem;
+	position: relative;
+}
+.sea-nav div{
+	width: 31%;
+	height: .6rem;
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #fff;
+
+
+
+}
+.sea-nav_left img{
+	width: .58rem;
+	height: auto;
+	float: left;
+	margin-left: .22rem;
+}
+.sea-nav_cen img{
+	width: .45rem;
+	height: auto;
+	float: left;
+	margin-left: .26rem;
+}
+.sea-nav_right img{
+	width: .38rem;
+	height: auto;
+	float: left;
+	margin-left: .26rem;
+}
+
+.sea-nav div img:nth-of-type(2){
+	width: .34rem;
+	margin-left: .16rem;
+	margin-right: .18rem;
+}
+
+.sea-nav div img:nth-of-type(3){
+	width: .34rem;
+	position: absolute;
+	left: 1.6rem;
+	top: .42rem;
+}
+.sea-nav .sea-nav_cen img:nth-of-type(3){
+	left: 4.15rem;
+}
+
+.sea-nav .sea-nav_right img:nth-of-type(3){
+	left: 6.24rem;
+}
+
+
+
+.sea-nav div span{
+	font-size: .26rem;
+	color: #fff;
+	margin-left: .1rem;
+}
+
+.sea-nav div:last-child{
+	border-right: 0;
+}
+
+.sea-nav div:nth-child(2){
+	flex-grow: 2;
+}
+
+#sea-nav_sj1{
+	width: 0;
+	height: 0;
+	border-left: 5px solid rgba(0, 0, 0, 0.0);
+	border-right: 5px solid rgba(0, 0, 0, 0.0);
+	border-bottom: 5px solid #fff;
+	position: absolute;
+	bottom: 0;
+	left: 1.9rem;
+}
+#sea-nav_sj2{
+	width: 0;
+	height: 0;
+	border-left: 5px solid rgba(0, 0, 0, 0.0);
+	border-right: 5px solid rgba(0, 0, 0, 0.0);
+	border-bottom: 5px solid #fff;
+	position: absolute;
+	bottom: 0;
+	left: 4.52rem;
+}
+#sea-nav_sj3{
+	width: 0;
+	height: 0;
+	border-left: 5px solid rgba(0, 0, 0, 0.0);
+	border-right: 5px solid rgba(0, 0, 0, 0.0);
+	border-bottom: 5px solid #fff;
+	position: absolute;
+	bottom: 0;
+	left: 6.6rem;
+}
+
+
+.sea-nav_gy{
+	width: 100%;
+	height: auto;
+	background: #FFf;
+	/* background: red; */
+	border-radius: 0 0 10px 10px;
+}
+
+.sea-nav_gy ul li{
+	width: 6.4rem;
+	height: .62rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #E8E8E8;
+	display: flex;
+	align-items: center;
+}
+.sea-nav_gy ul li:last-child{
+	border-bottom: 0;
+}
+
+.sea-nav_gy ul li img{
+	width: .45rem;
+	margin-left: -.04rem;
+	margin-right: .14rem;
+}
+.sea-nav_gy ul li span{
+	font-size: .28rem;
+	margin-right: .2rem;
+}
+.sea-nav_gy ul li div{
+	width: .72rem;
+	height: .3rem;
+	border-radius: .25rem;
+	background: #F73737;
+	color: #fff;
+	text-align: center;
+	line-height: .3rem;
+	font-size: .10rem;
+}
+.sea-nav_gy ul li div:nth-of-type(2){
+	width: .1rem;
+	height: .1rem;
+	background: #Fff;
+	border: 1px solid #9A9A9A;
+	float: right;
+	margin-left: 4.2rem;
+}
+.sea-nav_xlk2 ul li div:nth-of-type(2){
+	margin-left: 3.64rem;
+}
+.sea-nav_xlk3>div{
+	width: 6.4rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.sea-nav_xlk3 div h3{
+	font-size: .28rem;
+	width: 100%;
+	margin: .2rem 0;
+	font-weight: 400;
+}
+.sea-nav_xlk3 div div{
+	display: flex;
+	align-items: center;
+}
+.sea-nav_xlk3 div div span{
+	display: block;
+	width: 1.11rem;
+	height: .38rem;
+	border-radius: .38rem;
+	border: 1px solid #F73737;
+	font-size: .2rem;
+	text-align: center;
+	line-height: .38rem;
+	margin-left: .8rem;
+}
+.sea-nav_xlk3 div div:nth-of-type(1) span{
+	margin-left: .4rem;
+}
+
+.sea-nav_xlk3 div div div{
+	width: .1rem;
+	height: .1rem;
+	border-radius: 50%;
+	background: #Fff;
+	border: 1px solid #9A9A9A;
+	margin-left: .1rem;
+}
+.sea-nav_xlk3>div:last-child{
+	padding-bottom: .2rem;
+}
+
+
+.sea-nav_xlk1{
+	position: absolute;
+	top: 1.88rem;
+	left: 0;
+	display: none;
+}
+.sea-nav_xlk2{
+	position: absolute;
+	top: 1.88rem;
+	left: 0;
+	display: none;
+}
+.sea-nav_xlk3{
+	position: absolute;
+	top: 1.88rem;
+	left: 0;
+	display: none;
+}
+
+#sea-nav_sj1{
+	display: none;
+}
+#sea-nav_sj2{
+	display: none;
+}
+
+#sea-nav_sj3{
+	display: none;
+}
+
+.sea-nav_xx{
+	display: none;
+}
